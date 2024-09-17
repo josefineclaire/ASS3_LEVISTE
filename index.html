@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ASS3_LEVISTE</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Hammersmith+One&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/themes/confetti.css">
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+        
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="navbar">
+                    <nav>
+                        <ul>
+                            <li><a href="">HOME</a></li>
+                            <li><a href="#Synopsis">SYNOPSIS</a></li>
+                            <li><a href="#registration">REGISTER</a></li>
+                        </ul>
+                    </nav>
+                </div> 
+                <div class="row">
+                    <div class="col">
+                        <h1>HIDE YOUR</h1>
+                        <h2><i>Heart</i></h2>
+                        <br>
+                        <p>IN CINEMAS WORLDWIDE</p>
+                        <P>LIMITED SCREENING BEGINNING SEPTEMBER 23 <br>TICKETS ON SALE AUGUST 29</P>
+                    </div>
+                </div>
+                <div class="bottom-right-link">
+                    <a href="https://www.instagram.com/speculum_eyewear/" target="_blank">Photo from Speculum Eyewear</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section id="Synopsis">
+                <div class="SYNOPSIS">
+                    <div class="video-container">
+                        <video src="trailer.mp4" width="900px" controls autoplay muted loop></video>
+                        <p><a href="https://www.instagram.com/speculum_eyewear/reels/" target="_blank">Video from Speculum Eyewear</a></p>
+                    </div>
+                    <h3>In a world where deception is the greatest weapon, two master manipulators find themselves locked in a high-stakes game of wits. Jeonghan Yoon, a charismatic con artist, and THE8, a brilliant corporate spy, are both after the same prize: a lucrative merger deal that will make or break their careers. <br>
+                        <br>
+                        Unaware of each other's true identities, they adopt elaborate personas to outmaneuver one another. As they engage in a tense game of deception and mind games, they realize they are more alike than they thought. With time running out, they must decide whether to trust each other or continue their deadly dance, knowing only one can win—but neither will escape unchanged.
+                    </h3>
+                </div>
+            </section>
+
+            <section id="registration">
+                <h2>Register for more Information</h2>
+                <h3>Register for the latest news about Hide Your Heart and to receive future updates.<br></h3>
+                <h4> Required fields marked *</h4>
+                
+                <form id="registrationForm">
+                <div class="form-control">
+                    <label for="firstName">First Name*</label>
+                    <input type="text" id="firstName" name="firstName" >
+                    <i class="fa fa-check-circle"></i>
+                    <i class="fa fa-exclamation-circle"></i>
+                    <small>Error Message</small>
+                </div>
+        
+                <div class="form-control">
+                    <label for="lastName">Last Name*</label>
+                    <input type="text" id="lastName" name="lastName" >
+                    <i class="fa fa-check-circle"></i>
+                    <i class="fa fa-exclamation-circle"></i>
+                    <small>Error Message</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email" placeholder="hello@email.com" >
+                    <i class="fa fa-check-circle"></i>
+                    <i class="fa fa-exclamation-circle"></i>
+                    <small>Error Message</small>
+                </div>
+                
+                <div class="form-control">
+                    <label for="password">Password*</label>
+                    <input type="password" id="password" name="password" >
+                    <i class="fa fa-check-circle"></i>
+                    <i class="fa fa-exclamation-circle"></i>
+                    <small>Error Message</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="dob">Date of Birth*</label>
+                    <input type="date" id="dob" name="dob" >
+                    <i class="fa fa-check-circle"></i>
+                    <i class="fa fa-exclamation-circle"></i>
+                    <small>Error Message</small>
+                </div>
+        
+                    <button type="submit">Register</button>
+                    <div id="successMessage" class="hidden">Registration Successful!</div>
+
+                </form>
+            </section>
+
+            <footer>
+                <hr>
+                <p>For Educational Purposes Only<br>
+                    ITE212- Web Systems and Technologies<br>
+                    <a href="https://drive.google.com/drive/folders/1RqWTIPhQi7EGJ8WkSWdhLPOnZqN7_AFY?usp=sharing">Assignment 2</a><br>
+                    Submitted By:<br>
+                    Josefine Claire H. Leviste<br>
+                    CEIT-37-304P
+                    </p>
+            </footer>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
